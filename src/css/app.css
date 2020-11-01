@@ -6,7 +6,8 @@
   width: 100%;
   height: 100%;
   background-color: black;
-  opacity: 0.5;
+  opacity: 0.9;
+  border: solid 4px gray;
 }
 
 .modal {
@@ -46,14 +47,15 @@
   padding: 5px;
 }
 
-.game-header, .message-container {
+.game-header,
+.message-container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .message-container > button {
-    margin: 10px;
+  margin: 10px;
 }
 
 .game-header > h3 {

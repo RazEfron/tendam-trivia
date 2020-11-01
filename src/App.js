@@ -4,7 +4,7 @@ import questions from "./Apprentice_TandemFor400_Data";
 import { randomize } from "./utils";
 import "./css/app.css";
 
-function App() {
+const App = () => {
   // Take questions input and randomly pick an array of ten questions
   const [questionsArray, setQuestionsArray] = useState(() =>
     // creates an array of inedices the length of the given questions array input and randomizes the indecies
