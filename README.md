@@ -2,7 +2,7 @@
 
 ## To run the app - 
 
-1. clone the repo to your local machine
+1. clone the repo to your local machine or download it
 2. cd into the root directory
 3. run npm install
 4. run npm start and enjoy :)
