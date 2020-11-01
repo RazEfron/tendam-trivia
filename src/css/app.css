@@ -1,0 +1,80 @@
+.blackout {
+  z-index: 1994;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+}
+
+.modal {
+  z-index: 2020;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  max-width: 100%;
+  height: 400px;
+  max-height: 100%;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.game-container {
+  display: flex;
+  position: fixed;
+  width: fit-content;
+  flex-direction: column;
+  margin: auto;
+  border: gray 1px solid;
+  border-radius: 5px;
+  padding: 15px;
+  align-items: center;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.game-container > div {
+  padding: 5px;
+}
+
+.game-header, .message-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.message-container > button {
+    margin: 10px;
+}
+
+.game-header > h3 {
+  margin-top: 0;
+}
+
+.score {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+.question-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
